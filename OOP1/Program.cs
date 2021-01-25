@@ -16,8 +16,14 @@ namespace OOP1
             Product product2 = new Product { Id = 2, CategoryId = 5, ProductName="Kalem", UnitInStock=5 , UnitPrice=35 };
 
             ProductManager productManager = new ProductManager();
-            productManager.Add();
+            productManager.Add(product1);
+            Console.WriteLine(product1.ProductName);
 
+            Console.WriteLine("-----------");
+
+            productManager.Topla2(2, 3);
+            int toplamaSonuc = productManager.Topla(25, 43);
+            Console.WriteLine(toplamaSonuc*2);
         }
     }
 }
