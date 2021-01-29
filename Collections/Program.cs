@@ -27,8 +27,8 @@ namespace Collections
             Console.WriteLine(isimler2[1]);
             Console.WriteLine(isimler2[2]);
             Console.WriteLine(isimler2[3]);
-            
-           
+            Console.WriteLine(isimler2[4]);
+
 
         }
     }

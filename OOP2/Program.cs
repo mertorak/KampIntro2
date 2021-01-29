@@ -24,13 +24,6 @@ namespace OOP2
             Musteri musteri3 = new GercekMusteri();
             Musteri musteri4 = new TuzelMusteri();
 
-            CustomerManager customerManager = new CustomerManager();
-            customerManager.Ekle(musteri1);
-            customerManager.Ekle(musteri3);
-            customerManager.Ekle(musteri4);
-
-
-      
 
         }
     }
